@@ -5,7 +5,7 @@ function ItemCard({ item, onDelete }) {
     <div className="card">
       <h3>{item.name}</h3>
       <p><strong>Category:</strong> {item.category}</p>
-      <p><strong>Price:</strong> ${item.price}</p>
+      <p><strong>Price:</strong> RS.{item.price}</p>
       <p><strong>Quantity:</strong> {item.quantity}</p>
 
       <div className="card-actions">
